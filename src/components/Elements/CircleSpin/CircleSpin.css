@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.circleSpinContainer .outsideCircleSpin {
+.circleSpinContainer .outsideCircle {
   position: inherit;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@
   user-select: none;
 }
 
-.circleSpinContainer .outsideCircleSpin .mainImgOutsideCircle {
+.circleSpinContainer .outsideCircle .mainImgOutsideCircle {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 
-.circleSpinContainer .outsideCircleSpin .mainImgOutsideCircle.active {
+.circleSpinContainer .outsideCircle .mainImgOutsideCircle.active {
   animation: spin 8s linear 1s infinite;
 }
 
@@ -40,7 +40,7 @@
   }
 }
 
-.circleSpinContainer .outsideCircleSpin .outsideCircle {
+.circleSpinContainer .outsideCircle .outsideCircle {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -54,14 +54,14 @@
 }
 
 .circleSpinContainer
-  .outsideCircleSpin
+  .outsideCircle
   .mainImgOutsideCircle.active
   .outsideCircle {
   opacity: 1;
 }
 
 .circleSpinContainer
-  .outsideCircleSpin
+  .outsideCircle
   .mainImgOutsideCircle.active
   .outsideCircle:nth-child(1) {
   background: url(../../../images/logo/logo-html-5.png);
@@ -72,7 +72,7 @@
 }
 
 .circleSpinContainer
-  .outsideCircleSpin
+  .outsideCircle
   .mainImgOutsideCircle.active
   .outsideCircle:nth-child(2) {
   background: url(../../../images/logo/logo-css-3.png);
@@ -83,7 +83,7 @@
 }
 
 .circleSpinContainer
-  .outsideCircleSpin
+  .outsideCircle
   .mainImgOutsideCircle.active
   .outsideCircle:nth-child(3) {
   background: url(../../../images/logo/logo-javascript.png);
@@ -94,7 +94,7 @@
 }
 
 .circleSpinContainer
-  .outsideCircleSpin
+  .outsideCircle
   .mainImgOutsideCircle.active
   .outsideCircle:nth-child(4) {
   background: url(../../../images/logo/logo-node-js.png);
@@ -105,7 +105,7 @@
 }
 
 .circleSpinContainer
-  .outsideCircleSpin
+  .outsideCircle
   .mainImgOutsideCircle.active
   .outsideCircle:nth-child(5) {
   background: url(../../../images/logo/logo-react.png);
@@ -116,7 +116,7 @@
 }
 
 .circleSpinContainer
-  .outsideCircleSpin
+  .outsideCircle
   .mainImgOutsideCircle.active
   .outsideCircle:nth-child(6) {
   background: url(../../../images/logo/logo-next-js.png);
@@ -127,7 +127,7 @@
 }
 
 .circleSpinContainer
-  .outsideCircleSpin
+  .outsideCircle
   .mainImgOutsideCircle.active
   .outsideCircle:nth-child(7) {
   background: url(../../../images/logo/logo-electron.png);
@@ -138,7 +138,7 @@
 }
 
 .circleSpinContainer
-  .outsideCircleSpin
+  .outsideCircle
   .mainImgOutsideCircle.active
   .outsideCircle:nth-child(8) {
   background: url(../../../images/logo/logo-github.png);
