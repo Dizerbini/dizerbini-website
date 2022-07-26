@@ -6,16 +6,16 @@ function CircleSpin() {
   return (
     <>
       <div className="circleSpinContainer">
-        <div className="outsideCircleSpin">
+        <div className="outsideCircle">
           <div className="mainImgOutsideCircle">
-            <div className="outsideCircle"></div>
-            <div className="outsideCircle"></div>
-            <div className="outsideCircle"></div>
-            <div className="outsideCircle"></div>
-            <div className="outsideCircle"></div>
-            <div className="outsideCircle"></div>
-            <div className="outsideCircle"></div>
-            <div className="outsideCircle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
           </div>
           <img src={ImgCircleSpin} alt=""></img>
         </div>
