@@ -1,0 +1,44 @@
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.5rem;
+  transform: translateY(-100%);
+  opacity: 1;
+  backdrop-filter: 40px;
+  animation: fade-in 1s ease 1s forwards;
+}
+
+@keyframes fade-in {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.header-container h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.header-container h1 h3 {
+  font-size: 1rem;
+}
+
+.header-container h1 h3 span {
+  color: var(--clr-pri);
+  font-size: 1.25rem;
+}
+
+.header-container h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--clr-pri);
+  letter-spacing: 1px;
+}
