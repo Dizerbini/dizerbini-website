@@ -1,13 +1,10 @@
-import CircleSpin from './components/Elements/CircleSpin/CircleSpin';
-import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <>
-      <div>
-        <CircleSpin />
-      </div>
-    </>
+    <div className="container">
+      <h1></h1>
+    </div>
   );
 }
 

@@ -10,7 +10,7 @@
 }
 
 body {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 1);
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   animation: move 1s linear infinite forwards;
@@ -28,7 +28,7 @@ html {
   --clr-pri: #ffd700;
   --clr-pri-light: #ffec8b;
   --clr-sec: #9932cc;
-  --clr-sec-light: #da70d6;
+  --clr-sec-dark: #68228b;
   --clr-bg-dark: #1c1c1c;
   --clr-bg-light: #828282;
   --text-pri: #fff;
@@ -43,7 +43,7 @@ body::before {
   position: fixed;
   height: 200px;
   width: 200px;
-  background: var(--clr-sec);
+  background: var(--clr-pri);
   filter: blur(140px);
 }
 
@@ -54,7 +54,25 @@ body::after {
   right: 0;
   height: 200px;
   width: 200px;
-  background: var(--clr-pri);
+  background: var(--clr-sec);
+  filter: blur(140px);
+}
+
+.bg-circle1 {
+  position: fixed;
+  top: 0px;
+  right: 200px;
+  width: 200px;
+  background: var(--clr-pri-light);
+  filter: blur(140px);
+}
+
+.bg-circle2 {
+  position: fixed;
+  top: 0px;
+  right: 200px;
+  width: 200px;
+  background: var(--clr-sec-dark);
   filter: blur(140px);
 }
 
@@ -65,9 +83,10 @@ body::after {
   width: var(--pc-width);
   color: var(--text-pri);
   margin: 5px auto;
+  padding: 10px 40px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .container {
     width: var(--phone-width);
   }
