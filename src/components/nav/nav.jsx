@@ -1,5 +1,4 @@
 import './nav.css';
-import React from 'react';
 import { SiHomeassistant } from 'react-icons/si';
 import { FaUserAstronaut } from 'react-icons/fa';
 import { AiTwotoneExperiment } from 'react-icons/ai';
